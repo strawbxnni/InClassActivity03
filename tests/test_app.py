@@ -9,7 +9,7 @@ class TestMultNumbers(unittest.TestCase):
         self.assertEqual(mult_numbers(5, 0), 0)
 
     def test_multiply_negative(self):
-        self.assertEqual(mult_numbers(-2, 3), -6)
+        self.assertEqual(mult_numbers(-2, "three"), -6)
 
 if __name__ == '__main__':
     unittest.main()
